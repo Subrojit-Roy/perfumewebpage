@@ -1,0 +1,87 @@
+body{
+  background-color: #e6ddd5;
+}
+.di{
+  border-radius: 0px 10px 10px 0px;
+  height: 450px;
+  width: 300px;
+  position: absolute;
+  left: 750px;
+  top: 130px;
+  background-color: white;
+}
+
+.perf{
+  letter-spacing: 3px;
+}
+
+.hh{
+  text-align: right;
+  height: 450px;
+  width: 300px;
+  right: 300px;
+  border-radius: 10px 0px 0px 10px;
+  position: absolute;
+}
+
+p{
+  top: 15px;
+  left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  position: relative;
+  color: grey;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 20px;
+}
+.pp{
+  line-height: 1;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Fraunces', serif;
+  color: black;
+}
+
+.mar{
+  margin-top: 45px;
+  word-spacing: 20px;
+}
+
+.less_price{
+  font-size: 35px;
+  color: #138a54;
+  font-weight: 700;
+  font-family: 'Fraunces', serif;
+
+}
+
+.more_price{
+  text-decoration: line-through;
+  font-size: 17px;
+}
+
+.second{
+  margin-top: 20px;
+  border-radius: 10px 10px 10px 10px;
+  height: 50px;
+  width: 230px;
+  position: absolute;
+  left: 40px;
+  background-color: #138a54;
+}
+
+.cart{
+  left: 55px;
+  top: -5px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Montserrat', serif;
+  font-weight: 700;
+}
+
+@@media (max-width: 600px) {
+  html{
+    font-size: 1px;
+  }
+}
